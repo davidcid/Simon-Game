@@ -1,6 +1,6 @@
 let order = [];  //secuencia de la partida generada aleatoriamente
 let playerOrder = []; //secuencia que va introduciendo el jugador
-let flash; //??
+let flash; // elemento ACTUAL de la secuencia que se está ejecutando
 let turn; // Contador del turno de juego
 let good; // Detecta si se ha introducido correctamente la secuencia
 let compTurn; // true significa que se está reproduciendo la secuencia
@@ -123,17 +123,17 @@ function four() {
 }
 
 function clearColor() {
-  topLeft.style.backgroundColor = "darkgreen";
-  topRight.style.backgroundColor = "darkred";
-  bottomLeft.style.backgroundColor = "goldenrod";
-  bottomRight.style.backgroundColor = "darkblue";
+  topLeft.style.backgroundImage = null;
+  topRight.style.backgroundImage = null;
+  bottomLeft.style.backgroundImage = null;
+  bottomRight.style.backgroundImage = null;
 }
 
 function flashColor() {
-  topLeft.style.backgroundColor = "lightgreen";
-  topRight.style.backgroundColor = "tomato";
-  bottomLeft.style.backgroundColor = "yellow";
-  bottomRight.style.backgroundColor = "lightskyblue";
+  topLeft.style.backgroundImage = "radial-gradient(lightgreen, darkgreen)";
+  topRight.style.backgroundImage = "radial-gradient(tomato, darkred)";
+  bottomLeft.style.backgroundImage = "radial-gradient(yellow, goldenrod)";
+  bottomRight.style.backgroundImage = "radial-gradient(lightskyblue, darkblue)";
 }
 
 topLeft.addEventListener('click', (event) => {
