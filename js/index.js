@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 let order = [];  //secuencia de la partida generada aleatoriamente
 let playerOrder = []; //secuencia que va introduciendo el jugador
 let flash; // elemento ACTUAL de la secuencia que se está ejecutando
@@ -6,12 +7,17 @@ let turn; // Contador del turno de juego
 let good; // Detecta si se ha introducido correctamente la secuencia
 let compTurn; // true significa que se está reproduciendo la secuencia
 =======
+=======
+>>>>>>> parent of 78ed9b7... comentarios añadidos en el js
 let order = [];
 let playerOrder = [];
 let flash;
 let turn;
 let good;
 let compTurn;
+<<<<<<< HEAD
+>>>>>>> parent of 78ed9b7... comentarios añadidos en el js
+=======
 >>>>>>> parent of 78ed9b7... comentarios añadidos en el js
 let intervalId;
 let strict = false;
@@ -131,6 +137,7 @@ function four() {
 
 function clearColor() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   topLeft.style.backgroundImage = null;
   topRight.style.backgroundImage = null;
   bottomLeft.style.backgroundImage = null;
@@ -150,10 +157,22 @@ function flashColor() {
 }
 
 function flashColor() {
+=======
+	topLeft.style.backgroundColor = "darkgreen";
+	topRight.style.backgroundColor = "darkred";
+	bottomLeft.style.backgroundColor = "goldenrod";
+	bottomRight.style.backgroundColor = "darkblue";
+}
+
+function flashColor() {
+>>>>>>> parent of 78ed9b7... comentarios añadidos en el js
 	topLeft.style.backgroundColor = "lightgreen";
 	topRight.style.backgroundColor = "tomato";
 	bottomLeft.style.backgroundColor = "yellow";
 	bottomRight.style.backgroundColor = "lightskyblue";
+<<<<<<< HEAD
+>>>>>>> parent of 78ed9b7... comentarios añadidos en el js
+=======
 >>>>>>> parent of 78ed9b7... comentarios añadidos en el js
 }
 
